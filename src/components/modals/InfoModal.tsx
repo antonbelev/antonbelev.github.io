@@ -8,43 +8,42 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Правила" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
-        Guess the WORDLE in 6 tries. After each guess, the color of the tiles
-        will change to show how close your guess was to the word.
+        Познайте УЪРДЪЛ със 6 опита. След всеки опит, цветът на плочките ще се промени, за да Ви покаже колко близко сте до точната дума.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="W" status="correct" />
-        <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="Д" status="correct" />
+        <Cell value="Е" />
+        <Cell value="Й" />
+        <Cell value="Н" />
+        <Cell value="О" />
       </div>
       <p className="text-sm text-gray-500">
-        The letter W is in the word and in the correct spot.
+        Буквата Д е в думата и същто така е на правилното място.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
-        <Cell value="L" status="present" />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="Л" />
+        <Cell value="Е" />
+        <Cell value="К" status="present" />
+        <Cell value="А" />
+        <Cell value="Р" />
       </div>
       <p className="text-sm text-gray-500">
-        The letter L is in the word but in the wrong spot.
+        Буквата К е в думата, но на гешното място.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="У" />
+        <Cell value="М" />
+        <Cell value="Н" />
+        <Cell value="И" status="absent" />
+        <Cell value="К" />
       </div>
       <p className="text-sm text-gray-500">
-        The letter U is not in the word in any spot.
+        Буквата И не е в думата.
       </p>
     </BaseModal>
   )

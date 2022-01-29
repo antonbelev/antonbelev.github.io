@@ -22,10 +22,10 @@ const StatItem = ({
 export const StatBar = ({ gameStats }: Props) => {
   return (
     <div className="flex justify-center my-2">
-      <StatItem label="Total tries" value={gameStats.totalGames} />
-      <StatItem label="Success rate" value={`${gameStats.successRate}%`} />
-      <StatItem label="Current streak" value={gameStats.currentStreak} />
-      <StatItem label="Best streak" value={gameStats.bestStreak} />
+      <StatItem label="Общо игри" value={gameStats.totalGames} />
+      <StatItem label="Процент успеваемост" value={`${gameStats.successRate}%`} />
+      <StatItem label="Текуща серия" value={gameStats.currentStreak} />
+      <StatItem label="Най-добра серия" value={gameStats.bestStreak} />
     </div>
   )
 }

@@ -27,22 +27,22 @@ export const StatsModal = ({
 }: Props) => {
   if (gameStats.totalGames <= 0) {
     return (
-      <BaseModal title="Statistics" isOpen={isOpen} handleClose={handleClose}>
+      <BaseModal title="Статистика" isOpen={isOpen} handleClose={handleClose}>
         <StatBar gameStats={gameStats} />
       </BaseModal>
     )
   }
   return (
-    <BaseModal title="Statistics" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Статистика" isOpen={isOpen} handleClose={handleClose}>
       <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-900">
-        Guess Distribution
+        Разпределение на опитите
       </h4>
       <Histogram gameStats={gameStats} />
       {(isGameLost || isGameWon) && (
         <div className="mt-5 sm:mt-6 columns-2">
           <div>
-            <h5>New word in</h5>
+            <h5>Следваща дума след</h5>
             <Countdown
               className="text-lg font-medium text-gray-900"
               date={tomorrow}
@@ -57,7 +57,7 @@ export const StatsModal = ({
               handleShare()
             }}
           >
-            Share
+            Сподели
           </button>
         </div>
       )}
