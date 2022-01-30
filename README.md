@@ -4,11 +4,17 @@
 - This is a fork of a React implementation of Wordle [here](https://github.com/hannahcode/wordle)
 - Try a demo of this clone in bulgarian [here](https://antonbelev.github.io/)
 
-I wanted to make this fine game into bulgarian, so that none-native english speakers can enjoy the trend too. Instead of
+I wanted to make the original Wordle available in bulgarian, so that none-native english speakers can enjoy this trendy game too. Instead of
 implementing it from the ground up, I decided to leverage existing open-source clone implementation of Wordle, linked above.
 
-For the dictionary, I decided to craw an online bulgarian dictionary, and filter 5 letter words, which are not names of places etc.
+For the dictionary, I decided to craw an online bulgarian dictionary and filter 5 letter words, which are not names of places etc.
 
+This implementation contains over 58,000 valid guess words and over 3700 daily words.
+
+I've used the following resources to build this dictionary of words.
+
+- for the list of valid guess words I've used open-source project [here](https://github.com/miglen/bulgarian-wordlists)
+- for the list of daily solution words I've used [this website](https://slovored.com/sitemap/pravopisen-rechnik)
 
 _To Run Locally:_
 Clone the repository and perform the following command line actions:
