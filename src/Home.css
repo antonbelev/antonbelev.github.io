@@ -1,0 +1,42 @@
+.homeContainer {
+  max-width: 500px;
+  margin: auto;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.contactDetails {
+  font-size: large;
+  font-weight: normal;
+  padding: 20px;
+}
+
+li {
+  font-size: 14px;
+  margin-left: 10px;
+  list-style-type: circle;
+}
+
+.spacedP {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}

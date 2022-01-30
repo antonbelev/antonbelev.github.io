@@ -1,1 +1,1 @@
-export const WIN_MESSAGES = ['Страхотно!', 'Чедесно', 'Успяхте!']
+export const WIN_MESSAGES = ['Страхотно!', 'Чудесно', 'Успяхте!']
