@@ -1,8 +1,11 @@
-# Wordle clone in bulgarian
+# My personal space and side projects
+   This repo contains my personal space hosted on GitHub Pages. Right now it only contains contact details and a Wordle implementation in Bulgarian.
+
+# Wordle clone in Bulgarian
 
 - Go play the real Wordle [here](https://www.powerlanguage.co.uk/wordle/)
 - This is a fork of a React implementation of Wordle [here](https://github.com/hannahcode/wordle)
-- Try a demo of this clone in bulgarian [here](https://antonbelev.github.io/)
+- Try a demo of this clone in bulgarian [here](https://antonbelev.github.io/wordle-bg)
 
 I wanted to make the original Wordle available in bulgarian, so that none-native english speakers can enjoy this trendy game too. Instead of
 implementing it from the ground up, I decided to leverage existing open-source clone implementation of Wordle, linked above.
