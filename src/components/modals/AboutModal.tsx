@@ -24,7 +24,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           играете оригиналната игра тук.
         </a>
         {' '}Отворения код на тази имплементация може да намерите - {' '}
-        <a href="https://github.com/antonbelev/antonbelev.github.io"
+        <a href="https://github.com/antonbelev/wordlebg.github.io"
            className="underline font-bold"
         >
           тук.
