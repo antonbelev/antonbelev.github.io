@@ -25,7 +25,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="О" />
       </div>
       <p className="text-sm text-gray-500">
-        Буквата Д е в думата и същто така е на правилното място.
+        Буквата Д е в думата и също така е на правилното място.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -36,7 +36,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Р" />
       </div>
       <p className="text-sm text-gray-500">
-        Буквата К е в думата, но на гешното място.
+        Буквата К е в думата, но на грешното място.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
