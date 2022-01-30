@@ -13,6 +13,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Познайте УЪРДЪЛ със 6 опита. След всеки опит, цветът на плочките ще се промени, за да Ви покаже колко близко сте до точната дума.
       </p>
 
+    <p className="text-sm text-gray-500">
+       За българските почитатели на тази игра, това може да се определи като вариант на известната игра от нашето детство - "бесеница".
+    </p>
+
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="Д" status="correct" />
         <Cell value="Е" />
