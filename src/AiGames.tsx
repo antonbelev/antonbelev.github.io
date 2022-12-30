@@ -14,6 +14,21 @@ function AiGames() {
         by OpenAI for this experiment.{' '}
       </p>
 
+      <p>
+        {' '}
+        You can view the source code{' '}
+        <a href="https://github.com/antonbelev/antonbelev.github.io/tree/main/public/games">
+          here.
+        </a>{' '}
+        The prompts used are included in the source code as comments.{' '}
+      </p>
+      <p>
+        {' '}
+        The only bit I've changed manually in the JavaScript files was to append
+        the HTML elements to the 'homeContainer' div instead of document.body,
+        as the AI would do. This was only do in order to apply some styling.{' '}
+      </p>
+
       <p className="title">Games:</p>
       <nav>
         <ul>
