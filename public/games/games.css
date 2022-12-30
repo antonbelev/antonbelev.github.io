@@ -1,0 +1,19 @@
+.homeContainer {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}
