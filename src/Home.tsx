@@ -54,6 +54,11 @@ function Home() {
       <p className="title">Contact Details:</p>
       <ul>
         <li>
+          <a href="https://belev.me/">
+            Checkout my new website https://belev.me/
+          </a>
+        </li>
+        <li>
           <a href="https://www.linkedin.com/in/anton-belev">LinkedIn</a>
         </li>
         <li>
