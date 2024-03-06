@@ -1,6 +1,6 @@
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import Home from './Home'
-import WordleBg from './WordleBg'
+import GuessTheWordBg from './GuessTheWordBg'
 import AiGames from './AiGames'
 //import TicTacToe from './games/TicTacToe'
 //import BullsAndCows from './games/BullsAndCows'
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route index element={<Home />} />
-        <Route path="wordle-bg" element={<WordleBg />} />
+        <Route path="guess-the-word-bg" element={<GuessTheWordBg />} />
         <Route path="ai-games" element={<AiGames />} />
         <Route
           path="ai-games/tic-tac-toe"

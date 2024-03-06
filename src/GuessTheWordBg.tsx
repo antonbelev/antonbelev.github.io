@@ -17,7 +17,7 @@ import {
 
 const ALERT_TIME_MS = 2000
 
-function WordleBg() {
+function GuessTheWordBg() {
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
@@ -172,4 +172,4 @@ function WordleBg() {
   )
 }
 
-export default WordleBg
+export default GuessTheWordBg

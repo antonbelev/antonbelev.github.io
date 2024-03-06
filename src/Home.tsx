@@ -17,7 +17,9 @@ function Home() {
       <nav>
         <ul>
           <li>
-            <Link to="/wordle-bg">Wordle in Bulgarian (Уърдъл 🇧🇬)</Link>
+            <Link to="/guess-the-word-bg">
+              Guess the word in Bulgarian (Уърдъл 🇧🇬)
+            </Link>
 
             <p className="spacedP">
               You can find the open-source implementation{' '}
